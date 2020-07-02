@@ -1,0 +1,8 @@
+prefix=/home/curtis/dev/ros-helloworld/devel
+
+Name: iot
+Description: Description of iot
+Version: 0.0.0
+Cflags: -I/home/curtis/dev/ros-helloworld/devel/include -I/home/curtis/dev/ros-helloworld/src/iot/include
+Libs: -L${prefix}/lib -liot
+Requires: roscpp rospy std_msgs message_runtime
