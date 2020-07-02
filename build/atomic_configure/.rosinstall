@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/curtis/dev/ros-helloworld/devel/setup.sh
