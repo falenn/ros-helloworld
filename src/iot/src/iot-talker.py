@@ -9,7 +9,7 @@ from iot.msg import IoTSensor
 def talker():
     pub = rospy.Publisher('/iotsensor/status', IoTSensor, queue_size=10)
     rospy.init_node('iotsensor1', anonymous=True)
-    rate = rospy.Rate(10)
+    rate = rospy.Rate(1)
     while not rospy.is_shutdown():
         iotMsg = IoTSensor()
         iotMsg.id = 1
